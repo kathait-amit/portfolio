@@ -1,0 +1,121 @@
+/* Contact us page  */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(18, 30, 30);
+    /* border: 2px blue solid; */
+    color: white;
+
+}
+
+.cotact-container {
+
+    display: flex;
+    flex-direction: column;
+    /* border: 2px blue solid; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.contact-us {
+    padding-bottom: 5%;
+}
+
+hr {
+    margin-top: 5px;
+   
+}
+
+.contact-page {
+    /* border: 2px rgb(228, 7, 7) solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    width: 30vw;
+
+}
+
+#h3 {
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(28, 30, 243);
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+input {
+    margin-bottom: 5px;
+    width: 20vw;
+    height: 4vh;
+    
+    border-radius: 3px;
+}
+/* send button  */
+.btn-sm{
+    width: 12vh;
+    height: 6vh;
+    margin-top: 15px;
+    background-color: rgb(1        48, 7, 7);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.btn-sm:hover{
+    background-color: red;
+}
+
+/* social-media link  */
+
+.social-m{       
+    margin-left: 80px;
+    margin-top: 25px;
+    
+}
+.link{
+    margin-top: 15px;
+    display: flex;
+    column-gap: 1cm;
+}
+
+.link a{
+    text-decoration: none;
+    /* border: 2px black solid; */
+    padding: 5px;
+}
+
+#link1{
+    background-color: rgb(35, 35, 251);
+    color: white;
+    border-radius: 4px;
+}
+#link2{
+    background-color: rgb(225, 39, 166);
+    color: white;
+    border-radius: 4px;
+}
+#link3{
+    background-color: rgb(56, 220, 231);
+    color: white;
+    border-radius: 4px;
+}
+/* contact info */
+.address{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.para {
+    font-weight: 600;
+}
+.info{
+    margin-top: 15px;
+}

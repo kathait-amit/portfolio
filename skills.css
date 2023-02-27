@@ -1,0 +1,31 @@
+.main-flex{
+    /* border: 2px solid rgb(0, 0, 0); */
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 80vw;
+height: 80vh;
+margin: 70px auto auto auto;
+overflow: hidden;
+}
+
+
+.flex-box1,.flex-box2,.flex-box3,.flex-box4,.flex-box5,.flex-box6{
+    /* border: 2px solid red; */
+width: 30%;
+height: 45%;
+overflow: hidden ;
+}
+
+
+h3{
+   text-align: center;
+   font-weight: 700;
+}
+
+
+
+
+

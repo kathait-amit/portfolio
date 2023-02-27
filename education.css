@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(18, 30, 30);
+    color: white ;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    /* border: 2px blue solid; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.edu {
+    /* border: 2px solid rgb(4, 255, 8); */
+    margin: 15px;
+    width: 70VW;
+    font-size: 25px;
+
+}
+
+.education {
+    /* border: 2px solid rgb(3, 59, 4); */
+    margin: 15px;
+    width: 70VW;
+    height: 50vh;
+    display: flex;
+
+}
+
+.box1 {
+    /* border: 2px solid rgb(4, 117, 255); */
+   
+    width: 60VW;
+    height: 40vh;
+    margin: 15px 35px 15px 15px;
+
+}
+
+
+
+.box1  hr{
+    margin-top: 10px; 
+}
+
+.box1 .year {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box1 .class {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.box1 .Sname {
+    margin-top: 10px;
+    font-size: 15px;
+    word-spacing: 3px;
+    
+}
+
+.high{
+    /* border: 2px solid rgb(4, 117, 255); */
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.inter{
+        /* border: 2px solid rgb(4, 117, 255); */
+        margin-left: 15px;
+        margin-top: 30px;
+
+}
+
+.box2 {
+    /* border: 2px solid rgb(255, 188, 2); */
+   
+    width: 60VW;
+    height: 40vh;
+    margin: 15px 15px 15px 25px;
+
+
+}
+.box2  hr{
+    margin-top: 10px; 
+}
+
+.box2 .year {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box2 .class {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.box2 .Sname {
+    margin-top: 10px;
+    font-size: 15px;
+    word-spacing: 3px;
+    
+}
+
+.poly{
+    /* border: 2px solid rgb(4, 117, 255); */
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.btech{
+        /* border: 2px solid rgb(4, 117, 255); */
+        margin-left: 15px;
+        margin-top: 30px;
+
+}

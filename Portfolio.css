@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    /* border: 2px rgb(212, 0, 0) solid; */
+
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("back.jpg");
+    
+}
+
+ /* portfolio logo  */
+.logo img{
+    /* border: 2px rgb(255, 11, 231) solid; */
+
+    margin: 20px;
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+/* sidebar design  */
+.sidebar{
+    /* border: 5px rgb(20, 233, 5) solid; */
+    /* background-color: yellow; */
+    height: 100vh;
+    width: 12vw;
+
+}
+#mylist{
+    /* border: 2px rgb(16, 12, 253) solid; */
+    margin-top: 10%;
+    padding: 20px;
+          
+    
+}
+#mylist li {
+/* border: 2px black solid; */
+    list-style: none;
+   
+    /* font-size: 20px; */
+    font-weight: 600;
+    margin: 50px 25px 0px 10px;
+    
+}
+#mylist li a {
+    text-decoration: none;
+}
+
+
+   .main{
+    /* border: 5px solid red; */
+    /* background-image: url("back.jpg"); */
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 88vw;
+    
+}
+
+/* infocontainer desgin */
+
+.infocontainer{
+    /* border: 2px rgb(27, 0, 206) solid; */
+    /* background-color: aqua; */
+    margin: 135px 120px auto;
+    height: 40vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    /* border: 2px rgb(255, 5, 180) solid; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 65%;
+
+
+}
+
+
+
+.hello{
+font-size: 30px;
+font-weight: 1000;
+color: rgb(5, 5, 134);
+}
+
+.name{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(5, 5, 134);
+}
+
+.about{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.about span {
+    color: rgb(128, 20, 20);
+}
+.btn button{
+    
+    margin-top: 25px;
+    border: none;
+    background-color: rgb(81, 121, 242);
+    border-radius: 5px;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+
+}
+
+.btn button:hover{
+    background-color: rgb(71, 195, 244);
+}
+
+
+.my-img img{
+    /* border: 2px black solid; */
+    margin: 0px;
+       height: 78vh;
+       width: 20vw;
+
+}
+       
